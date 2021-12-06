@@ -650,6 +650,7 @@ body {
 }
 .portfolio-wrap {
   position: relative;
+  overflow: hidden;
 }
 .portfolio-overlay {
   position: absolute;
@@ -661,6 +662,8 @@ body {
   padding: 63px 24px;
   color: #ffffff;
   background-color: rgba(33, 150, 243, 0.9);
+}
+.portfolio-overlay-text {
   height: 100%;
   width: 100%;
 }
